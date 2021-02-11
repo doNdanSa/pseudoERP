@@ -1,0 +1,517 @@
+﻿namespace KD
+{
+    partial class Awaria
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Awaria));
+            this.btn_Zapisz = new System.Windows.Forms.Button();
+            this.tab_Awaria = new System.Windows.Forms.TabControl();
+            this.Zgłoszenie = new System.Windows.Forms.TabPage();
+            this.Informacje_o_awarii = new System.Windows.Forms.TabPage();
+            this.Inf_o_wykonanych_pracach = new System.Windows.Forms.TabPage();
+            this.Sprawca = new System.Windows.Forms.TabPage();
+            this.Obsluga_awarii = new System.Windows.Forms.TabPage();
+            this.info_o_zgloszeniu = new System.Windows.Forms.GroupBox();
+            this.l1_Imie = new System.Windows.Forms.Label();
+            this.l1_typ_zgloszenia = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.l3_nazwisko = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.zgłaszajacy = new System.Windows.Forms.GroupBox();
+            this.Telefon = new System.Windows.Forms.Label();
+            this.forma_zgloszenia = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.Dane_adresowe_zglasza = new System.Windows.Forms.GroupBox();
+            this.miejscowosc = new System.Windows.Forms.Label();
+            this.ulica = new System.Windows.Forms.Label();
+            this.tb_miejscowosc = new System.Windows.Forms.TextBox();
+            this.tb_ulica = new System.Windows.Forms.TextBox();
+            this.nr_dom = new System.Windows.Forms.Label();
+            this.nr_dzialki = new System.Windows.Forms.Label();
+            this.nr_lokalu = new System.Windows.Forms.Label();
+            this.txt_nr_domu = new System.Windows.Forms.TextBox();
+            this.txt_nr_dzialki = new System.Windows.Forms.TextBox();
+            this.txt_nr_lokalu = new System.Windows.Forms.TextBox();
+            this.tersc_zgloszenia = new System.Windows.Forms.Label();
+            this.teres_zgl = new System.Windows.Forms.TextBox();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.data_zgl = new System.Windows.Forms.Label();
+            this.data_realizacji = new System.Windows.Forms.Label();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.tab_Awaria.SuspendLayout();
+            this.Zgłoszenie.SuspendLayout();
+            this.info_o_zgloszeniu.SuspendLayout();
+            this.zgłaszajacy.SuspendLayout();
+            this.Dane_adresowe_zglasza.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // btn_Zapisz
+            // 
+            this.btn_Zapisz.Image = global::KD.Properties.Resources.Actions_document_save_icon;
+            this.btn_Zapisz.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btn_Zapisz.Location = new System.Drawing.Point(4, 526);
+            this.btn_Zapisz.Name = "btn_Zapisz";
+            this.btn_Zapisz.Size = new System.Drawing.Size(126, 40);
+            this.btn_Zapisz.TabIndex = 0;
+            this.btn_Zapisz.Text = "Zapisz";
+            this.btn_Zapisz.UseVisualStyleBackColor = true;
+            this.btn_Zapisz.Click += new System.EventHandler(this.btn_Zapisz_Click);
+            // 
+            // tab_Awaria
+            // 
+            this.tab_Awaria.Controls.Add(this.Zgłoszenie);
+            this.tab_Awaria.Controls.Add(this.Informacje_o_awarii);
+            this.tab_Awaria.Controls.Add(this.Inf_o_wykonanych_pracach);
+            this.tab_Awaria.Controls.Add(this.Sprawca);
+            this.tab_Awaria.Controls.Add(this.Obsluga_awarii);
+            this.tab_Awaria.Location = new System.Drawing.Point(4, 21);
+            this.tab_Awaria.Name = "tab_Awaria";
+            this.tab_Awaria.SelectedIndex = 0;
+            this.tab_Awaria.Size = new System.Drawing.Size(883, 499);
+            this.tab_Awaria.TabIndex = 1;
+            // 
+            // Zgłoszenie
+            // 
+            this.Zgłoszenie.BackColor = System.Drawing.Color.LightGray;
+            this.Zgłoszenie.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Zgłoszenie.Controls.Add(this.info_o_zgloszeniu);
+            this.Zgłoszenie.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Zgłoszenie.Location = new System.Drawing.Point(4, 22);
+            this.Zgłoszenie.Name = "Zgłoszenie";
+            this.Zgłoszenie.Padding = new System.Windows.Forms.Padding(3);
+            this.Zgłoszenie.Size = new System.Drawing.Size(875, 473);
+            this.Zgłoszenie.TabIndex = 0;
+            this.Zgłoszenie.Text = "Zgłoszenie";
+            // 
+            // Informacje_o_awarii
+            // 
+            this.Informacje_o_awarii.BackColor = System.Drawing.Color.LightGray;
+            this.Informacje_o_awarii.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Informacje_o_awarii.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Informacje_o_awarii.Location = new System.Drawing.Point(4, 22);
+            this.Informacje_o_awarii.Name = "Informacje_o_awarii";
+            this.Informacje_o_awarii.Padding = new System.Windows.Forms.Padding(3);
+            this.Informacje_o_awarii.Size = new System.Drawing.Size(875, 473);
+            this.Informacje_o_awarii.TabIndex = 1;
+            this.Informacje_o_awarii.Text = "Informacje o awrii";
+            // 
+            // Inf_o_wykonanych_pracach
+            // 
+            this.Inf_o_wykonanych_pracach.BackColor = System.Drawing.Color.LightGray;
+            this.Inf_o_wykonanych_pracach.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Inf_o_wykonanych_pracach.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Inf_o_wykonanych_pracach.Location = new System.Drawing.Point(4, 22);
+            this.Inf_o_wykonanych_pracach.Name = "Inf_o_wykonanych_pracach";
+            this.Inf_o_wykonanych_pracach.Size = new System.Drawing.Size(875, 473);
+            this.Inf_o_wykonanych_pracach.TabIndex = 2;
+            this.Inf_o_wykonanych_pracach.Text = "Informacje dotyczące wykonanych prac";
+            // 
+            // Sprawca
+            // 
+            this.Sprawca.BackColor = System.Drawing.Color.LightGray;
+            this.Sprawca.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Sprawca.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Sprawca.Location = new System.Drawing.Point(4, 22);
+            this.Sprawca.Name = "Sprawca";
+            this.Sprawca.Size = new System.Drawing.Size(875, 473);
+            this.Sprawca.TabIndex = 3;
+            this.Sprawca.Text = "Sprawca";
+            // 
+            // Obsluga_awarii
+            // 
+            this.Obsluga_awarii.BackColor = System.Drawing.Color.LightGray;
+            this.Obsluga_awarii.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.Obsluga_awarii.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Obsluga_awarii.Location = new System.Drawing.Point(4, 22);
+            this.Obsluga_awarii.Name = "Obsluga_awarii";
+            this.Obsluga_awarii.Size = new System.Drawing.Size(875, 473);
+            this.Obsluga_awarii.TabIndex = 4;
+            this.Obsluga_awarii.Text = "Obsługa awarii";
+            // 
+            // info_o_zgloszeniu
+            // 
+            this.info_o_zgloszeniu.Controls.Add(this.dateTimePicker2);
+            this.info_o_zgloszeniu.Controls.Add(this.data_realizacji);
+            this.info_o_zgloszeniu.Controls.Add(this.data_zgl);
+            this.info_o_zgloszeniu.Controls.Add(this.dateTimePicker1);
+            this.info_o_zgloszeniu.Controls.Add(this.teres_zgl);
+            this.info_o_zgloszeniu.Controls.Add(this.tersc_zgloszenia);
+            this.info_o_zgloszeniu.Controls.Add(this.Dane_adresowe_zglasza);
+            this.info_o_zgloszeniu.Controls.Add(this.comboBox2);
+            this.info_o_zgloszeniu.Controls.Add(this.textBox3);
+            this.info_o_zgloszeniu.Controls.Add(this.forma_zgloszenia);
+            this.info_o_zgloszeniu.Controls.Add(this.Telefon);
+            this.info_o_zgloszeniu.Controls.Add(this.zgłaszajacy);
+            this.info_o_zgloszeniu.Controls.Add(this.comboBox1);
+            this.info_o_zgloszeniu.Controls.Add(this.l1_typ_zgloszenia);
+            this.info_o_zgloszeniu.Cursor = System.Windows.Forms.Cursors.Default;
+            this.info_o_zgloszeniu.Location = new System.Drawing.Point(12, 17);
+            this.info_o_zgloszeniu.Name = "info_o_zgloszeniu";
+            this.info_o_zgloszeniu.Size = new System.Drawing.Size(842, 443);
+            this.info_o_zgloszeniu.TabIndex = 0;
+            this.info_o_zgloszeniu.TabStop = false;
+            this.info_o_zgloszeniu.Text = "Informacje o zgłoszeniu";
+            this.info_o_zgloszeniu.Enter += new System.EventHandler(this.info_o_zgloszeniu_Enter);
+            // 
+            // l1_Imie
+            // 
+            this.l1_Imie.AutoSize = true;
+            this.l1_Imie.Location = new System.Drawing.Point(51, 28);
+            this.l1_Imie.Name = "l1_Imie";
+            this.l1_Imie.Size = new System.Drawing.Size(39, 15);
+            this.l1_Imie.TabIndex = 0;
+            this.l1_Imie.Text = "Imię:";
+            // 
+            // l1_typ_zgloszenia
+            // 
+            this.l1_typ_zgloszenia.AutoSize = true;
+            this.l1_typ_zgloszenia.Location = new System.Drawing.Point(34, 121);
+            this.l1_typ_zgloszenia.Name = "l1_typ_zgloszenia";
+            this.l1_typ_zgloszenia.Size = new System.Drawing.Size(106, 15);
+            this.l1_typ_zgloszenia.TabIndex = 1;
+            this.l1_typ_zgloszenia.Text = "Typ zgłoszenia:";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(96, 22);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(253, 21);
+            this.textBox1.TabIndex = 2;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox1.DropDownHeight = 100;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.IntegralHeight = false;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Wewnętrzne",
+            "Zewnętrzne"});
+            this.comboBox1.Location = new System.Drawing.Point(146, 113);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(253, 23);
+            this.comboBox1.Sorted = true;
+            this.comboBox1.TabIndex = 3;
+            // 
+            // l3_nazwisko
+            // 
+            this.l3_nazwisko.AutoSize = true;
+            this.l3_nazwisko.Location = new System.Drawing.Point(18, 57);
+            this.l3_nazwisko.Name = "l3_nazwisko";
+            this.l3_nazwisko.Size = new System.Drawing.Size(72, 15);
+            this.l3_nazwisko.TabIndex = 4;
+            this.l3_nazwisko.Text = "Nazwisko:";
+            this.l3_nazwisko.Click += new System.EventHandler(this.l3_nazwisko_Click);
+            // 
+            // textBox2
+            // 
+            this.textBox2.Location = new System.Drawing.Point(96, 51);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(253, 21);
+            this.textBox2.TabIndex = 5;
+            // 
+            // zgłaszajacy
+            // 
+            this.zgłaszajacy.Controls.Add(this.textBox2);
+            this.zgłaszajacy.Controls.Add(this.l3_nazwisko);
+            this.zgłaszajacy.Controls.Add(this.textBox1);
+            this.zgłaszajacy.Controls.Add(this.l1_Imie);
+            this.zgłaszajacy.Location = new System.Drawing.Point(50, 20);
+            this.zgłaszajacy.Name = "zgłaszajacy";
+            this.zgłaszajacy.Size = new System.Drawing.Size(365, 89);
+            this.zgłaszajacy.TabIndex = 6;
+            this.zgłaszajacy.TabStop = false;
+            this.zgłaszajacy.Text = "Zgłaszający:";
+            // 
+            // Telefon
+            // 
+            this.Telefon.AutoSize = true;
+            this.Telefon.Location = new System.Drawing.Point(536, 77);
+            this.Telefon.Name = "Telefon";
+            this.Telefon.Size = new System.Drawing.Size(59, 15);
+            this.Telefon.TabIndex = 7;
+            this.Telefon.Text = "Telefon:";
+            // 
+            // forma_zgloszenia
+            // 
+            this.forma_zgloszenia.AutoSize = true;
+            this.forma_zgloszenia.Location = new System.Drawing.Point(470, 43);
+            this.forma_zgloszenia.Name = "forma_zgloszenia";
+            this.forma_zgloszenia.Size = new System.Drawing.Size(125, 15);
+            this.forma_zgloszenia.TabIndex = 8;
+            this.forma_zgloszenia.Text = "Forma zgłoszenia:";
+            this.forma_zgloszenia.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(601, 71);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(185, 21);
+            this.textBox3.TabIndex = 9;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.comboBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "systemowo",
+            "e-mail",
+            "telefonicznia",
+            "osobiście"});
+            this.comboBox2.Location = new System.Drawing.Point(601, 40);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(185, 23);
+            this.comboBox2.TabIndex = 10;
+            // 
+            // Dane_adresowe_zglasza
+            // 
+            this.Dane_adresowe_zglasza.BackColor = System.Drawing.Color.LightGray;
+            this.Dane_adresowe_zglasza.Controls.Add(this.txt_nr_lokalu);
+            this.Dane_adresowe_zglasza.Controls.Add(this.txt_nr_dzialki);
+            this.Dane_adresowe_zglasza.Controls.Add(this.txt_nr_domu);
+            this.Dane_adresowe_zglasza.Controls.Add(this.nr_lokalu);
+            this.Dane_adresowe_zglasza.Controls.Add(this.nr_dzialki);
+            this.Dane_adresowe_zglasza.Controls.Add(this.nr_dom);
+            this.Dane_adresowe_zglasza.Controls.Add(this.tb_ulica);
+            this.Dane_adresowe_zglasza.Controls.Add(this.tb_miejscowosc);
+            this.Dane_adresowe_zglasza.Controls.Add(this.ulica);
+            this.Dane_adresowe_zglasza.Controls.Add(this.miejscowosc);
+            this.Dane_adresowe_zglasza.Location = new System.Drawing.Point(6, 160);
+            this.Dane_adresowe_zglasza.Name = "Dane_adresowe_zglasza";
+            this.Dane_adresowe_zglasza.Size = new System.Drawing.Size(818, 129);
+            this.Dane_adresowe_zglasza.TabIndex = 11;
+            this.Dane_adresowe_zglasza.TabStop = false;
+            this.Dane_adresowe_zglasza.Text = "Dane adresowe zgłaszającego";
+            // 
+            // miejscowosc
+            // 
+            this.miejscowosc.AutoSize = true;
+            this.miejscowosc.Location = new System.Drawing.Point(30, 41);
+            this.miejscowosc.Name = "miejscowosc";
+            this.miejscowosc.Size = new System.Drawing.Size(93, 15);
+            this.miejscowosc.TabIndex = 0;
+            this.miejscowosc.Text = "Miejscowość:";
+            this.miejscowosc.Click += new System.EventHandler(this.miejscowosc_Click);
+            // 
+            // ulica
+            // 
+            this.ulica.AutoSize = true;
+            this.ulica.Location = new System.Drawing.Point(79, 74);
+            this.ulica.Name = "ulica";
+            this.ulica.Size = new System.Drawing.Size(44, 15);
+            this.ulica.TabIndex = 1;
+            this.ulica.Text = "Ulica:";
+            // 
+            // tb_miejscowosc
+            // 
+            this.tb_miejscowosc.Location = new System.Drawing.Point(130, 35);
+            this.tb_miejscowosc.Name = "tb_miejscowosc";
+            this.tb_miejscowosc.Size = new System.Drawing.Size(345, 21);
+            this.tb_miejscowosc.TabIndex = 2;
+            // 
+            // tb_ulica
+            // 
+            this.tb_ulica.Location = new System.Drawing.Point(130, 68);
+            this.tb_ulica.Name = "tb_ulica";
+            this.tb_ulica.Size = new System.Drawing.Size(345, 21);
+            this.tb_ulica.TabIndex = 3;
+            // 
+            // nr_dom
+            // 
+            this.nr_dom.AutoSize = true;
+            this.nr_dom.Location = new System.Drawing.Point(547, 41);
+            this.nr_dom.Name = "nr_dom";
+            this.nr_dom.Size = new System.Drawing.Size(66, 15);
+            this.nr_dom.TabIndex = 4;
+            this.nr_dom.Text = "Nr domu:";
+            // 
+            // nr_dzialki
+            // 
+            this.nr_dzialki.AutoSize = true;
+            this.nr_dzialki.Location = new System.Drawing.Point(541, 71);
+            this.nr_dzialki.Name = "nr_dzialki";
+            this.nr_dzialki.Size = new System.Drawing.Size(72, 15);
+            this.nr_dzialki.TabIndex = 5;
+            this.nr_dzialki.Text = "Nr działki:";
+            // 
+            // nr_lokalu
+            // 
+            this.nr_lokalu.AutoSize = true;
+            this.nr_lokalu.Location = new System.Drawing.Point(680, 41);
+            this.nr_lokalu.Name = "nr_lokalu";
+            this.nr_lokalu.Size = new System.Drawing.Size(69, 15);
+            this.nr_lokalu.TabIndex = 6;
+            this.nr_lokalu.Text = "Nr lokalu:";
+            this.nr_lokalu.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // txt_nr_domu
+            // 
+            this.txt_nr_domu.Location = new System.Drawing.Point(619, 35);
+            this.txt_nr_domu.Name = "txt_nr_domu";
+            this.txt_nr_domu.Size = new System.Drawing.Size(45, 21);
+            this.txt_nr_domu.TabIndex = 7;
+            // 
+            // txt_nr_dzialki
+            // 
+            this.txt_nr_dzialki.Location = new System.Drawing.Point(620, 65);
+            this.txt_nr_dzialki.Name = "txt_nr_dzialki";
+            this.txt_nr_dzialki.Size = new System.Drawing.Size(44, 21);
+            this.txt_nr_dzialki.TabIndex = 8;
+            // 
+            // txt_nr_lokalu
+            // 
+            this.txt_nr_lokalu.Location = new System.Drawing.Point(755, 35);
+            this.txt_nr_lokalu.Name = "txt_nr_lokalu";
+            this.txt_nr_lokalu.Size = new System.Drawing.Size(44, 21);
+            this.txt_nr_lokalu.TabIndex = 9;
+            // 
+            // tersc_zgloszenia
+            // 
+            this.tersc_zgloszenia.AutoSize = true;
+            this.tersc_zgloszenia.Location = new System.Drawing.Point(6, 304);
+            this.tersc_zgloszenia.Name = "tersc_zgloszenia";
+            this.tersc_zgloszenia.Size = new System.Drawing.Size(119, 15);
+            this.tersc_zgloszenia.TabIndex = 12;
+            this.tersc_zgloszenia.Text = "Treść zgłoszenia:";
+            // 
+            // teres_zgl
+            // 
+            this.teres_zgl.Cursor = System.Windows.Forms.Cursors.WaitCursor;
+            this.teres_zgl.Location = new System.Drawing.Point(9, 322);
+            this.teres_zgl.Name = "teres_zgl";
+            this.teres_zgl.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.teres_zgl.Size = new System.Drawing.Size(777, 21);
+            this.teres_zgl.TabIndex = 13;
+            this.teres_zgl.UseWaitCursor = true;
+            this.teres_zgl.TextChanged += new System.EventHandler(this.teres_zgl_TextChanged);
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.CustomFormat = "dd.MM.yyyy hh:mm";
+            this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker1.Location = new System.Drawing.Point(210, 397);
+            this.dateTimePicker1.MinDate = new System.DateTime(2000, 1, 1, 0, 0, 0, 0);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(154, 21);
+            this.dateTimePicker1.TabIndex = 14;
+            this.dateTimePicker1.Value = new System.DateTime(2018, 5, 3, 20, 21, 1, 0);
+            // 
+            // data_zgl
+            // 
+            this.data_zgl.AutoSize = true;
+            this.data_zgl.Location = new System.Drawing.Point(198, 379);
+            this.data_zgl.Name = "data_zgl";
+            this.data_zgl.Size = new System.Drawing.Size(177, 15);
+            this.data_zgl.TabIndex = 15;
+            this.data_zgl.Text = "Data i godzina zgłoszenia:";
+            // 
+            // data_realizacji
+            // 
+            this.data_realizacji.AutoSize = true;
+            this.data_realizacji.Location = new System.Drawing.Point(470, 379);
+            this.data_realizacji.Name = "data_realizacji";
+            this.data_realizacji.Size = new System.Drawing.Size(245, 15);
+            this.data_realizacji.TabIndex = 16;
+            this.data_realizacji.Text = "Data i godzina planowanej realizacji:";
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.CustomFormat = "dd.MM.yyyy hh.mm";
+            this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
+            this.dateTimePicker2.Location = new System.Drawing.Point(517, 397);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(153, 21);
+            this.dateTimePicker2.TabIndex = 17;
+            // 
+            // Awaria
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.ClientSize = new System.Drawing.Size(895, 568);
+            this.Controls.Add(this.tab_Awaria);
+            this.Controls.Add(this.btn_Zapisz);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "Awaria";
+            this.Text = "Awaria";
+            this.tab_Awaria.ResumeLayout(false);
+            this.Zgłoszenie.ResumeLayout(false);
+            this.info_o_zgloszeniu.ResumeLayout(false);
+            this.info_o_zgloszeniu.PerformLayout();
+            this.zgłaszajacy.ResumeLayout(false);
+            this.zgłaszajacy.PerformLayout();
+            this.Dane_adresowe_zglasza.ResumeLayout(false);
+            this.Dane_adresowe_zglasza.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btn_Zapisz;
+        private System.Windows.Forms.TabControl tab_Awaria;
+        private System.Windows.Forms.TabPage Zgłoszenie;
+        private System.Windows.Forms.TabPage Informacje_o_awarii;
+        private System.Windows.Forms.TabPage Inf_o_wykonanych_pracach;
+        private System.Windows.Forms.TabPage Sprawca;
+        private System.Windows.Forms.TabPage Obsluga_awarii;
+        private System.Windows.Forms.GroupBox info_o_zgloszeniu;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label l1_typ_zgloszenia;
+        private System.Windows.Forms.Label l1_Imie;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label l3_nazwisko;
+        private System.Windows.Forms.Label forma_zgloszenia;
+        private System.Windows.Forms.Label Telefon;
+        private System.Windows.Forms.GroupBox zgłaszajacy;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.GroupBox Dane_adresowe_zglasza;
+        private System.Windows.Forms.Label miejscowosc;
+        private System.Windows.Forms.Label nr_lokalu;
+        private System.Windows.Forms.Label nr_dzialki;
+        private System.Windows.Forms.Label nr_dom;
+        private System.Windows.Forms.TextBox tb_ulica;
+        private System.Windows.Forms.TextBox tb_miejscowosc;
+        private System.Windows.Forms.Label ulica;
+        private System.Windows.Forms.TextBox teres_zgl;
+        private System.Windows.Forms.Label tersc_zgloszenia;
+        private System.Windows.Forms.TextBox txt_nr_lokalu;
+        private System.Windows.Forms.TextBox txt_nr_dzialki;
+        private System.Windows.Forms.TextBox txt_nr_domu;
+        private System.Windows.Forms.DateTimePicker dateTimePicker1;
+        private System.Windows.Forms.Label data_zgl;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
+        private System.Windows.Forms.Label data_realizacji;
+    }
+}

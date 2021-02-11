@@ -1,0 +1,82 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using System.Data.OleDb; // polaczenie z baza danych MSAccess   
+
+namespace KD
+{
+    public partial class Awaria : Form
+    {
+        private OleDbConnection polaczenie = new OleDbConnection(); // deklaracja zmiennej jako globalnej 
+
+        public Awaria()
+        {
+            InitializeComponent();
+            polaczenie.ConnectionString = @"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\Wiedza\KD_projekt\KD_new.accdb; Persist Security Info = False;";  // polaczenie z baza danych
+        }
+
+        private void btn_Zapisz_Click(object sender, EventArgs e)
+        {
+            try
+            {
+
+                polaczenie.Open(); // otworzenia polaczenia z baza danych
+                OleDbCommand komenda = new OleDbCommand();
+                komenda.Connection = polaczenie;
+                komenda.CommandText = "insert into Zgloszenie (Imie,Nazwisko,Forma_zgloszenia,Telefon,Typ_zgloszenia,Miejscowosc,Ulica,Nr_domu,Nr_lokalu,Nr_dzialki,Tresc_zgloszenia,DG_zgloszenia,DG_prealizacji) " +
+                    "values('" + txtImie.Text + "','" + txtNazwisko.Text + "','"+comboFZ.Text+"','" + txtTel.Text+ "', '" +comboTZ.Text + "',  '"+tb_miejscowosc.Text+ "', '" + tb_ulica.Text + "','" + txt_nr_domu.Text + "', " +
+                    "'" + txt_nr_lokalu.Text + "', '" + txt_nr_dzialki.Text + "','" + teres_zgl.Text + "', '"+dateTimePicker1.Text+ "', '" + dateTimePicker2.Text + "')";
+
+                
+
+                komenda.ExecuteNonQuery();  // insert, delet, update dane w BD
+                MessageBox.Show("Zapisano dane");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Błąd " + ex);
+            }
+        }
+
+        private void l3_nazwisko_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void info_o_zgloszeniu_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void miejscowosc_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void teres_zgl_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lb_sred_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
